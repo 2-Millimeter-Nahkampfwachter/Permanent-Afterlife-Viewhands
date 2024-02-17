@@ -2,7 +2,7 @@ init(){
     if(getdvar( "mapname" ) == "zm_prison"){
         waittillframeend;
         level.original_afterlife_give_loadout = level.afterlife_give_loadout;
-	    level.afterlife_give_loadout = ::afterlifegive;
+	level.afterlife_give_loadout = ::afterlifegive;
     }
 }
 
